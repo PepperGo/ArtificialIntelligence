@@ -75,6 +75,8 @@ The TaskTrackers on different nodes execute the task as per MapReduce implementa
 Please refer to [Hadoop - Enviornment Setup](https://www.tutorialspoint.com/hadoop/hadoop_enviornment_setup.htm).  
 Or just google how to install and configure haddop in your machine.  
 
+For mac:[Hadoop Installation on Mac OS X](https://isaacchanghau.github.io/2017/06/27/Hadoop-Installation-on-Mac-OS-X/)
+
 #### Hadoop Operation Modes
 Once you have downloaded Hadoop, you can operate your Hadoop cluster in one of the three supported modes:
 - Local/Standalone Mode : After downloading Hadoop in your system, by default, it is configured in a standalone mode and can be run as a single java process.
