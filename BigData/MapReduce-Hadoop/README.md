@@ -76,6 +76,7 @@ Please refer to [Hadoop - Enviornment Setup](https://www.tutorialspoint.com/hado
 Or just google how to install and configure haddop in your machine.  
 
 For mac:[Hadoop Installation on Mac OS X](https://isaacchanghau.github.io/2017/06/27/Hadoop-Installation-on-Mac-OS-X/)
+[Another useful material for mac](https://amodernstory.com/2014/09/23/installing-hadoop-on-mac-osx-yosemite/)
 
 #### Hadoop Operation Modes
 Once you have downloaded Hadoop, you can operate your Hadoop cluster in one of the three supported modes:
