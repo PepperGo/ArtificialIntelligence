@@ -5,6 +5,7 @@ Hadoop is an open source tool of ASF( Apache Software Foundation). Open source m
 Hadoop is a Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment.   
 Apache Hadoop is the most popular and powerful big data tool, Hadoop provides world’s most reliable storage layer – HDFS, a batch Processing engine – MapReduce and a Resource Management Layer – YARN.
 
+# Hadoop
 
 ## Hadoop
 Hadoop is an open-source framework that allows to store and process big data in a distributed environment across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage.  
@@ -85,6 +86,34 @@ Once you have downloaded Hadoop, you can operate your Hadoop cluster in one of t
 - Fully Distributed Mode : This mode is fully distributed with minimum two or more machines as a cluster. We will come across this mode in detail in the coming chapters.
 
 ### Hadoop - HDFS Overview
+HDFS: Hadoop Distributed File System
+
+HDFS holds very large amount of data and provides easier access. To store such huge data, the files are stored across multiple machines. These files are stored in redundant fashion to rescue the system from possible data losses in case of failure. HDFS also makes applications available to parallel processing.  
+
+
+#### HDFS Architecture
+HDFS follows the master-slave architecture and it has the following elements.
+- Namenode   
+The namenode is the commodity hardware that contains the GNU/Linux operating system and the namenode software. It is a software that can be run on commodity hardware.  
+
+The system having the namenode acts as the master server and it does the following tasks:  
+1. Manages the file system namespace.  
+2. Regulates client’s access to files.  
+3. It also executes file system operations such as renaming, closing, and opening files and directories.  
+
+
+- Datanode    
+For every node (Commodity hardware/System) in a cluster, there will be a datanode. These nodes manage the data storage of their system.  
+1. Datanodes perform read-write operations on the file systems, as per client request.  
+2. They also perform operations such as block creation, deletion, and replication according to the instructions of the namenode.  
+
+
+- Block   
+Generally the user data is stored in the files of HDFS. The file in a file system will be divided into one or more segments and/or stored in individual data nodes. These file segments are called as blocks.
+The minimum amount of data that HDFS can read or write is called a Block.  
+ 
+#### Hadoop - HDFS Operations 
+google it. hdfs cmds and hadoop cmds.
 
 
 ## Reference:
