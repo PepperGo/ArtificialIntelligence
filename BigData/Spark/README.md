@@ -69,8 +69,10 @@ This illustration shows interactive operations on Spark RDD. If different querie
 
 
 ## Core Programming
+Spark Core is the base of the whole project. It provides distributed task dispatching, scheduling, and basic I/O functionalities. Spark uses a specialized fundamental data structure known as RDD (Resilient Distributed Datasets) that is a logical collection of data partitioned across machines.    
+RDDs can be created in two ways; one is by referencing datasets in external storage systems and second is by applying transformations (e.g. map, filter, reducer, join) on existing RDDs.
 
-
+[Apache Spark - Core Programming](https://www.tutorialspoint.com/apache_spark/apache_spark_core_programming.htm)  
 
 
 
