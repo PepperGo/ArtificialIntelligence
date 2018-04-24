@@ -5,6 +5,11 @@
 4. Finally, processed data can be pushed out to filesystems, databases, and live dashboards.  
 5. Spark’s machine learning and graph processing algorithms can be used on data streams.
 
+## Some Example
+[Official Examples](https://spark.apache.org/docs/latest/streaming-programming-guide.html#a-quick-example)
+- Scala
+- Java
+- Python
 
 ## Reference
 1. [Spark Streaming Programming Guide](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
